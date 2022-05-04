@@ -2,7 +2,7 @@
   "name": "mainportofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kumenger.github.io//kumeportofolio",
+ 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@testing-library/jest-dom": "^5.16.3",

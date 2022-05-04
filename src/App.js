@@ -7,11 +7,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Contact from './Contact'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Routes,
   Link,
-  BrowserRouter,
+  
 } from "react-router-dom";
 
 function App() {
