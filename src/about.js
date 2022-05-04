@@ -12,7 +12,7 @@ const About = () => {
   <img  src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"  style={{width:"80%",height:"",objectFit:"contain"}} />
  
  </div>
-  <div className="  col-xs-12   col-s-12 col-7  heading-sun "  >
+  <div className="  col-xs-12   col-s-12 col-8 heading-sun "  >
     <p class=" abouttext" >
              
           I'm <strong className="pink">kumenger Beyene</strong> a fullstack
