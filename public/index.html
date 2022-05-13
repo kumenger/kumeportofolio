@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="
-   https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans|Dancing+Script|Indie+Flower|Baloo+Bhai|Lilita+One|Faster+One|Roboto+Mono|Monoton|Press+Start+2P|Rye|Wallpoet&display=swap"
+   https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans|Dancing+Script|Indie+Flower|Exo+2|Baloo+Bhai|Lilita+One|Faster+One|Roboto+Mono|Monoton|Press+Start+2P|Rye|Wallpoet&display=swap"
     rel="stylesheet">
 
   <!--
@@ -49,9 +49,11 @@
       right: 0;
       left: 0;
       z-index: 1030;
-      background: radial-gradient(circle, rgb(185, 231, 228) 5%, rgba(134, 174, 219, 0.97) 85%);
+      
        
-      opacity: 0.8
+      opacity: 0.8;
+    
+    
     
 
 
@@ -94,7 +96,7 @@
     #projects {}
 
     .pink {
-      color: rgb(243, 204, 238);
+      color: rgb(223, 192, 220);
     }
 
     .aboutme {
@@ -147,9 +149,13 @@
 
     .navitems {
       font-size: 1.2rem;
-      color: #eeecd5;;
+      color: rgb(22, 3, 19);
+      
       
      
+    }
+    .about:hover{
+      color: rgb(223, 37, 213);
     }
     @media only screen and (min-width: 400px) {
       p {
@@ -157,6 +163,7 @@
 
 
       }
+     
       .heading-main{
         
         letter-spacing: 2px;
@@ -193,22 +200,23 @@
 
 .a{
  
-    height: 85vh;
-    background-image:linear-gradient(
-        to right bottom,
-        #ced4cc46,rgba(101, 157, 221, 0.97)) ,
-        url('https://i.ibb.co/X74QVFR/negative-space-gray-laptop-computer-showing-html-code-Custom.jpg');
-    background-size: cover;
-    background-position: top;
-    clip-path: polygon(0 0,100% 0, 100% 70%,0 100%);
+    height: 100vh;
+   
+   
+   
   
    
 
 }
-.abouttext{
-  color: rgb(206, 230, 140);
+.link{
+  color: rgb(226, 226, 238);
   
-  font-family: Roboto Mono;
+}
+
+.abouttext{
+  color: #eeecd5;
+  
+  font-family: Exo 2;
   
 }
 .heading-sun{
@@ -238,16 +246,23 @@
     .navbar-toggler-icon {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-
+.about{
+  background-color: rgb(238, 217, 190);
+  font-weight: bold;
+  border-radius: 9%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
  body {
 
   
       padding-top: 100px;
-      background: radial-gradient(circle, rgb(235, 248, 248) 50%, rgba(211, 223, 235, 0.97) 65%)
+      background-image:linear-gradient(
+        to bottom right ,
+        #516285e0,rgba(26, 29, 29, 0.425)) ,
+        url('https://i.ibb.co/X74QVFR/negative-space-gray-laptop-computer-showing-html-code-Custom.jpg');
+    background-size: cover;
     }
-    .oddesty{
-     color:linear-gradient(0deg, rgb(231, 247, 247) 0%, rgb(240, 230, 208) 79%);
-    }
+  
   </style>
   <title>React App</title>
 </head>

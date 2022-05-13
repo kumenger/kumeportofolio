@@ -24,31 +24,31 @@ function App() {
             <Navbar collapseOnSelect expand="lg" className="c ">
               <Container>
                 <Navbar.Brand as={Link} to="/">
-                   <p className="navitems btn btn-dark " eventKey={1}>  
+                   <p className="navitems btn   about " eventKey={1}>  
                       About</p>{" "}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ms-auto">
-                    <Nav.Link as={Link} to="/projects" eventKey={2}>
-                      <p className="navitems btn btn-dark">Projects</p>
-                    </Nav.Link>
+                   
                     <Nav.Link as={Link} to='/skills' eventKey={3} className="">
-                      <p className="navitems btn btn-dark  ">Skills</p>
+                      <p className="navitems btn about ">Skills</p>
                     </Nav.Link>
                     <Nav.Link className="">
-                      <p className="navitems btn btn-dark ">Resume</p>
+                      <p className="navitems btn about">Resume</p>
                     </Nav.Link>
 
                     <Nav.Link href="#">
-                      <p className="navitems btn btn-dark  ">Award</p>
+                      <p className="navitems btn about">Award</p>
                       
                     </Nav.Link>
                     <Nav.Link as={Link} to='/contact' eventKey={4}>
-                      <p className="navitems btn btn-dark ">Contact</p>
+                      <p className="navitems btn about ">Contact</p>
                       
                     </Nav.Link>
-                    
+                    <Nav.Link as={Link} to="/projects" eventKey={2}>
+                      <p className="navitems btn   about">Projects</p>
+                    </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
