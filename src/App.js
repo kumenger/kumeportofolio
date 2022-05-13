@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Contact from './Contact'
 import {
-  BrowserRouter,
+  BrowserRouter as Router,
   Route,
   Routes,
   Link,
@@ -16,8 +16,8 @@ import {
 
 function App() {
   return (
-   
-    <BrowserRouter >
+    <Router>
+    
       <div className="" >
         <div className="row " >
           <div className="col-md-12" >
@@ -54,21 +54,23 @@ function App() {
               </Container>
             </Navbar>
           </div>
-         
+         <About/>
         </div>
        
         <div className=" " >
-          <Routes>
-            <Route path="/" element={<About />} />
+         
+            <Routes>
+            
             <Route path="/projects" element={<Project />} />
             <Route path="/skills" element={<Skills />} />
             <Route path='/contact' element={<Contact/>}/>
-          </Routes>
+            </Routes>
+         
          
         </div>
         
       </div>
-    </BrowserRouter>
+      </Router>
   );
 }
 
