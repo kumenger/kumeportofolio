@@ -24,7 +24,7 @@ const Header = () => {
                 About
               </p>{" "}
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav " className="bg-light" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
                 <Nav.Link as={Link} to="/skills" eventKey={3} className="">

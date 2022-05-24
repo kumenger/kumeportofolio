@@ -53,7 +53,7 @@ const About = () => {
               </a>{" "}
               that gives you the opportunity to{" "}
               <strong className="pink">Permanent Resident Card</strong>.
-              <br></br> Graduated in Computer Science and Information
+               Graduated in Computer Science and Information
               Techonolgy,<strong className="pink">Bsc</strong> at{" "}
               <a
                 href="https://www.amu.edu.et/"
